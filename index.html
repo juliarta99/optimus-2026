@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Juliarta</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h2 class="logo">Ngurah Juliarta</h2>
+        <button class="menu-toggle" aria-label="Buka menu" aria-expanded="false" aria-controls="main-nav">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="main-nav">
+            <a href="#about">About</a>
+            <a href="#educations">Education</a>
+            <a href="#experiences">Experience</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="about" class="container hero">
+            <div class="hero-content">
+                <h1>Hii, I'm <span class="text-primary">Juliarta</span></h1>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, iure?
+                </p>
+                <div class="hero-cta">
+                    <a href="">
+                        <button class="btn">View my experience</button>
+                    </a>
+                    <a href="">
+                        <button class="btn btn-outline">About me</button>
+                    </a>
+                </div>
+            </div>
+            <img src="assets/images/foto.png" alt="Foto">
+        </section>
+
+        <section id="educations" class="container bg-primary">
+            <h2 class="title-container text-white">Education History</h2>
+            <div class="grid grid-cols-3">
+                <article class="card">
+                    <p class="text-primary">S1 Computer Science</p>
+                    <h4>Universitas Udayana</h4>
+                    <p class="text-primary">IPK:3,99/4,0</p>
+                    <p>(2024-present)</p>
+                </article>
+                <article class="card">
+                    <p class="text-primary">Software Engineering</p>
+                    <h4>SMK Negeri 1 Denpasar</h4>
+                    <p class="text-primary">Nilai: 89/100</p>
+                    <p>(2021-2024)</p>
+                </article>
+                <article class="card">
+                    <h4>SMP Negeri 5 Mengwi</h4>
+                    <p class="text-primary">Nilai: 92/100</p>
+                    <p>(2018-2021)</p>
+                </article>
+            </div>
+        </section>
+
+        <section id="experiences" class="container">
+            <h2 class="title-container">Experience</h2>
+            <div class="grid grid-cols-3">
+                <article class="card">
+                    <img src="assets/images/experiences/1.png" alt="Experience FullStack Web Developer">
+                    <div class="card-content">
+                        <p class="text-primary">FullStack Web Developer</p>
+                        <h4>UProject</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quibusdam?</p>
+                        <a href="">
+                            <button class="btn">View Details</button>
+                        </a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/experiences/2.png" alt="Experience Intern">
+                    <div class="card-content">
+                        <p class="text-primary">Intern</p>
+                        <h4>PT. Bali Pustaka Digital</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quibusdam?</p>
+                        <a href="">
+                            <button class="btn">View Details</button>
+                        </a>
+                    </div>
+                </article>
+                <article class="card">
+                    <img src="assets/images/experiences/3.png" alt="Experience Competition">
+                    <div class="card-content">
+                        <p class="text-primary">Achievement</p>
+                        <h4>2nd Web Design Winner</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, quibusdam?</p>
+                        <a href="">
+                            <button class="btn">View Details</button>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <footer>
+            <p>&copy; 2026 Juliarta</p>
+            <p>Build with HTML CSS</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
